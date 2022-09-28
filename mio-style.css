@@ -124,3 +124,22 @@
 }
 /* fine 10° es */
 
+/* = icona sopra,On hover questa volta gira in senso orario fino ad arrivare a 3/4 e poi torna indietro velocemente */
+
+.ex-11-icon:hover {
+  animation: ruota 2s linear infinite;
+}
+
+@keyframes ruota {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(340deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+/* fine 11° es */
+

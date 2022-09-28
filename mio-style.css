@@ -145,8 +145,7 @@
 
 /* Anima il bottone, sposta quello spazio bianco */
 
-
- .ex-12-button:hover .ex-12-top-white {
+.ex-12-button:hover .ex-12-top-white {
   animation: btn 2s linear;
 }
 
@@ -179,7 +178,54 @@
 }
 /* fine 12° es */
 
+/* giro completo */
 
+.ex-13-button:hover .ex-13-top-white {
+  animation: topbtn 2s linear;
+}
+
+@keyframes topbtn {
+0% {
+  left: 40%;
+}
+30% {
+  left: 68%;
+  top: 100%;
+}
+60% {
+  left: 110%;
+  top: 100%;
+}
+90% {
+  left: 110%;
+  top: 100%;
+}
+100% {
+  left: 10%;
+}
+}
+
+.ex-13-button:hover .ex-13-bottom-white {
+  animation: botbtn 2s linear;
+}
+
+@keyframes botbtn {
+  0% {
+    left: 10%;
+  }
+  30% {
+    left: 68%;
+  }
+  60% {
+    left: 10%;
+  }
+  90% {
+    left: 10%;
+  }
+  100% {
+    left: 10%;
+  }
+}
 
 
 

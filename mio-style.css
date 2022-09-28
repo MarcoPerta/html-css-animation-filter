@@ -95,3 +95,15 @@
 }
 /* fine 8° es */
 
+/* due effetti, bordi arrotondati e scaliamo l'immagine */
+
+.ex-9-img:hover{
+  filter: sepia(40%) grayscale(50%);
+  border-radius: 40px;
+  transform: scale(1.5,1.5);
+}
+
+.ex-9-img {
+  transition: 2s;
+}
+/* fine 9° es */

@@ -38,3 +38,18 @@
 }
 /* fine 3° es */
 
+/* quadratino scomparirà gradualmente */
+
+.ex-4-square:hover{
+  opacity: 0;
+}
+
+.ex-4-square{
+  transition: opacity 2s;
+}
+/* fine 4° es */
+
+
+
+
+

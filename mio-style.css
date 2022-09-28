@@ -27,3 +27,14 @@
 }
 /* fine 2° es */
 
+/* quadratino si trasforma. con hover diventerà gradualmente un cerchio */
+
+.ex-3-square:hover{
+  border-radius: 100%;
+}
+
+.ex-3-square{
+  transition: border-radius 2s;
+}
+/* fine 3° es */
+

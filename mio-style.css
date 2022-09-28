@@ -64,5 +64,23 @@
 }
 /* fine 5° es */
 
+/* L'immagine on hover diventerà bianco e nero */
 
+.ex-6-img:hover{
+  filter: grayscale(100%);
+}
+
+/* fine 6° es */
+
+/* aggiungiamo 2 effetti all'immagine, cambierà gradualmente */
+
+.ex-7-img:hover{
+  filter: grayscale(100%);
+  filter: sepia(60%);
+}
+
+.ex-7-img {
+  transition: filter 2s;
+}
+/* fine 7° es */
 

@@ -143,3 +143,43 @@
 }
 /* fine 11° es */
 
+/* Anima il bottone, sposta quello spazio bianco */
+
+
+ .ex-12-button:hover .ex-12-top-white {
+  animation: btn 2s linear;
+}
+
+@keyframes btn {
+0% {
+  left: 10%;
+}
+50% {
+  left: 68%;
+}
+100% {
+  left: 10%;
+}
+}
+
+.ex-12-button:hover .ex-12-bottom-white {
+  animation: btnb 2s linear;
+}
+
+@keyframes btnb {
+0% {
+  right: 20%;
+}
+50% {
+  right: 68%;
+}
+100% {
+  right: 20%;
+}
+}
+/* fine 12° es */
+
+
+
+
+

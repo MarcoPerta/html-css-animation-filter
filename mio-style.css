@@ -107,3 +107,20 @@
   transition: 2s;
 }
 /* fine 9° es */
+
+/* Come un caricamento: L'icona gira e gira ancora. */
+
+.ex-10-icon {
+  animation: ruota 1s linear infinite;
+}
+
+@keyframes ruota {
+  from {
+    transform: rotate(360deg);
+  }
+  to {
+    transform: rotate(0deg);
+  }
+}
+/* fine 10° es */
+
